@@ -1,0 +1,628 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Medium.woff2') format('woff2'),
+      url('../font/Roboto-Medium.woff') format('woff'),
+      url('../font/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Regular.woff2') format('woff2'),
+      url('../font/Roboto-Regular.woff') format('woff'),
+      url('../font/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../font/Rubik-Bold.woff2') format('woff2'),
+      url('../font/Rubik-Bold.woff') format('woff'),
+      url('../font/Rubik-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../font/Rubik-Medium.woff2') format('woff2'),
+      url('../font/Rubik-Medium.woff') format('woff'),
+      url('../font/Rubik-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../font/Rubik-Regular.woff2') format('woff2'),
+      url('../font/Rubik-Regular.woff') format('woff'),
+      url('../font/Rubik-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Rubik, sans-serif;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img {
+  display: inline-block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+
+
+/* !  HEADER   */
+/* !  HEADER  TOP  */
+
+.header {
+  padding-top: 25px;
+}
+
+.header-top-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.refresh-link {
+  margin-right: 25px;
+  box-shadow: 0px 2px 6px 0px #CACACA40;
+
+}
+
+.exchange-rate-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.exchange-rate-item {
+  display: flex;
+}
+
+.exchange-rate-item + .exchange-rate-item {
+  margin-left: 25px;
+}
+
+.exchange-rate-logo {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #285193;
+
+}
+
+.exchange-rate-value {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #7A7A7A;
+}
+
+.telegram-link {
+  margin-left: auto;
+}
+
+
+/* !  SITE  NAV    */
+.nite-nav {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding: 20px 10px;
+  box-shadow: 0px 2px 5px 0px #9F9F9F30;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item + .nav-item {
+  margin-left: 28px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #515151;
+
+}
+
+
+/* !  NRG  BANNER */
+.nrg-banner-container {
+  padding-top: 10px;
+  padding-bottom: 22px;
+}
+
+/* !  MAIN */
+/* !  COVID */
+
+.covid {
+  padding-top: 22px;
+  padding-bottom: 10px;
+}
+
+.covid-container {
+  display: flex;
+  width: 1200px;
+  padding: 40px 35px;
+  justify-content: space-evenly;
+  background-color: #F6F6F9;
+  border-radius: 5px;
+}
+
+.covid-heading {
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.covid-icon {
+  margin-right: 25px;
+}
+
+.covid-item-icon {
+  margin-right: 25px;
+}
+
+.covid-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.covid-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 25px;
+  width: 220px;
+}
+
+.covid-item-heading {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.covid-item-value {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.covid-item-dead {
+  width: 140px;
+}
+
+.covid-item-icon-infected {
+  color: #DB0000;
+}
+
+.covid-item-icon-recovered {
+  color: #05B135;
+}
+
+
+/* !  POPULAR   NEWS */
+
+.popular-news-container {
+  padding-top: 15px;
+}
+
+.popular-news-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.popular-news-item {
+  display: flex;
+  flex-direction: column;
+  width: 386px;
+}
+
+.popular-news-img {
+  margin-bottom: 10px;
+}
+
+.popular-news-link {
+  font-family: Rubik;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #202020;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.popular-news-date {
+  margin: 0;
+  padding: 0;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6B6D97;
+  margin-bottom: 10px;
+}
+
+/* !  NOTIFICATION */
+.notification {
+  padding: 25px 20px;
+}
+
+.notification-container {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  padding: 25px 20px;
+  background-color: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+}
+
+.notification-img {
+  margin-right: 15px;
+}
+
+.notification-heading {
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.notification-link {
+  margin-left: auto;
+}
+
+
+/* !  LAST    NEWS */
+.last-news-container {
+  display: flex;
+  padding-top: 45px;
+}
+
+/* !  LAST  NEWS  LEFT */
+.last-news-left-container {
+  width: 800px;
+  padding: 0;
+}
+
+.last-news-left-list {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 40px;
+}
+
+.last-news-left-item {
+  display: flex;
+  width: 800px;
+  align-items: center;
+}
+
+.last-news-left-item + .last-news-left-item {
+  margin-top: 20px;
+}
+
+.last-news-left-img {
+  margin-right: 20px;
+}
+
+.last-news-left-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+
+}
+
+.last-news-info-heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-family: Rubik;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #202020;
+}
+
+.last-news-desc {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-family: Rubik;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #434343;
+}
+
+.last-news-left-date {
+  margin: 0;
+  padding: 0;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7688A4;
+}
+
+.last-news-left-btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 40px;
+
+}
+
+/* !  LAST  POPULAR  NEWS */
+.last-popular-news-container {
+  width: 386px;
+  padding: 15px 20px;
+  background-color: #F6F6F9;
+  border-radius: 5px;
+}
+
+.last-popular-news-heading {
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #202020;
+}
+
+.last-popular-news-list{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.last-popular-news-item-heading {
+  font-family: Rubik;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #202020;
+}
+
+.last-popular-news-date {
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7688A4;
+}
+
+.last-popular-news-dividing-line {
+  width: 346px;
+  height: 4px;
+  background-color: #E4E4E4;
+}
+
+.ucell-baner {
+  padding-top: 20px;
+}
+
+/* !  ADVERT  APPS   */
+
+.advert-apps {
+  padding: 40px 0;
+}
+
+.advert-apps-container {
+  display: flex;
+  align-items: center;
+  background-color: #F6F6F9;
+  border-radius: 5px;
+}
+
+.advert-apps-heading {
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #295093;
+}
+
+.advert-apps-desc {
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+
+.apps-link + .apps-link {
+  margin-left: 20px;
+}
+
+/* !  FOOTER */
+
+/* ! */
+
+.footer {
+  padding-top: 20px;
+  background-color: #295093;
+}
+
+.footer-top {
+  display: flex;
+}
+
+.footer-top-text {
+  margin-left: auto;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom-left {
+  width: 365px;
+  margin-right: 110px;
+}
+
+.footer-bottom-left-heading {
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.footer-bottom-left-desc {
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.footer-bottom-right {
+  display: flex;
+}
+
+.footer-bottom-right-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.footer-bottom-right-item {
+  margin: 0;
+  padding: 0;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  
+}
+
+.footer-bottom-right-list + .footer-bottom-right-list {
+  margin-left: 110px;
+}
